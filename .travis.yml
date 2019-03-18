@@ -3,7 +3,8 @@ node_js:
 - '10'
 before_script:
 - npm install -g gulp-cli
-script: gulp
+script:
+- gulp
 jobs:
   include:
   - stage: npm release
@@ -16,7 +17,7 @@ jobs:
       node: '10.0'
       api_key:
         secure:
-          iLfM7MWiiyXGeQGeQW6+JYSoU1gnpK1FKt0925XPwhjD5WLPyt6UB9/ivym79uUs4jB83TvnPX9HtgvUStDeQyKffC1AF5XkAowu93mxBeFPV+Ae1FgMc+y0Phaw8hJ+osOlBlOhqAYs1xpA/cR2y7I16DT37v2XroVh7R4ASBeyiB6j2XLEwwYCG2DAfznCEQVkIQYne5HKxf0NtgzrGY49yjkZDAUqU/WqjJNQmE5NHAgXdQOnTecIk8r+0TMy+Cw0TP6L5FG88H/WhCuWenNFnFcTZQtBfiGIMHCESsCe/QMnG2Vt8aSNTVAPIQwMrBwM5YRBYwbkOZfCA+weUONNKg+qnITTmuneewdc/croirliD3dncFW0LFndwbBZ737LKL9q1VNfw4sJdfXtRuiZ+U9VW5fTTh0L7YWGtJ3/MoSd1nueWeJSqMc8OtsfaUfTGL3DBb5TO+PeWJMVIESRPzMP4ON7Zw5KXCAj2ZDBX4HApApdRyDZJc8BWZBMux/QYbu6h7F+pjzTVhsyDCyECKgLGAPpPuwa9iKnPzNMoYWQRHXugXX+QjigS3wCYILGm3rNvHird3IVTafnpfTvMzWxPDgUqTpWDE5WaDebIswy8D+gCfIHoBTyCnmPTxCJvzKlFQRDEHqKHZozvU5CLcTRspzg9CqOzeTcoz0=                    
+          iLfM7MWiiyXGeQGeQW6+JYSoU1gnpK1FKt0925XPwhjD5WLPyt6UB9/ivym79uUs4jB83TvnPX9HtgvUStDeQyKffC1AF5XkAowu93mxBeFPV+Ae1FgMc+y0Phaw8hJ+osOlBlOhqAYs1xpA/cR2y7I16DT37v2XroVh7R4ASBeyiB6j2XLEwwYCG2DAfznCEQVkIQYne5HKxf0NtgzrGY49yjkZDAUqU/WqjJNQmE5NHAgXdQOnTecIk8r+0TMy+Cw0TP6L5FG88H/WhCuWenNFnFcTZQtBfiGIMHCESsCe/QMnG2Vt8aSNTVAPIQwMrBwM5YRBYwbkOZfCA+weUONNKg+qnITTmuneewdc/croirliD3dncFW0LFndwbBZ737LKL9q1VNfw4sJdfXtRuiZ+U9VW5fTTh0L7YWGtJ3/MoSd1nueWeJSqMc8OtsfaUfTGL3DBb5TO+PeWJMVIESRPzMP4ON7Zw5KXCAj2ZDBX4HApApdRyDZJc8BWZBMux/QYbu6h7F+pjzTVhsyDCyECKgLGAPpPuwa9iKnPzNMoYWQRHXugXX+QjigS3wCYILGm3rNvHird3IVTafnpfTvMzWxPDgUqTpWDE5WaDebIswy8D+gCfIHoBTyCnmPTxCJvzKlFQRDEHqKHZozvU5CLcTRspzg9CqOzeTcoz0=
       on:
         all_branches: true
         tags: true
