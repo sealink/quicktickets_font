@@ -1,5 +1,5 @@
 {
-  "name": "quicktickets_font",
+  "name": "@sealink/quicktickets_font",
   "version": "1.0.0",
   "description": "QuickTicket Fonts",
   "main": "dist/css/quicktickets-font.css",
